@@ -1,0 +1,179 @@
+{
+    "locales": {
+        "en": {
+            "title": "Life Recently",
+            "title_menu": "Updates",
+            "title_long_prefix": "Take a look at my",
+            "title_long": "Recent **Updates**"
+        }
+    },
+    "articles": [
+        {
+            "id": "fun_facts",
+            "component": "ArticleServices",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "7+",
+                            "info": "Projects Completed"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-laptop-code",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "2",
+                            "info": "Internships Completed"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-certificate",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "3",
+                            "info": "Certifications Earned"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-trophy",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "1st Place",
+                            "info": "Elocution Competition"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-robot",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "30%",
+                            "info": "Process Efficiency Improved"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "updates",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Recent **Activities**" }
+            },
+            "items": [
+                {
+                    "dates": {
+                        "start": "08/15/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "View Project", "href": "https://github.com/rajsanadi/WorkFlow360" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Launched **WorkFlow360**",
+                            "text": "Successfully launched WorkFlow360, a comprehensive employee management system developed using ASP.NET Core and ReactJS. It features advanced reporting and authentication mechanisms."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "07/31/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Completed Internship at **Triveni Global Software Services LLP**",
+                            "text": "Contributed as a Full-Stack Developer Intern, designing and developing full-stack web applications using ASP.NET Core and React."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "03/31/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Completed Internship at **ProAzure Software Solutions**",
+                            "text": "Worked as an RPA and Web Developer Intern, developing automation workflows using UiPath, which improved process efficiency by 30%."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "05/10/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "View Certificate", "href": "https://coursera.org/verify/your-certificate-id" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Earned **Advanced Java Programming Certification**",
+                            "text": "Completed the Advanced Java Programming course on Coursera, enhancing my skills in Java development."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "04/20/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "View Certificate", "href": "https://www.credly.com/badges/your-badge-id" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Achieved **IBM Cyber Security Certification**",
+                            "text": "Completed IBM's Cyber Security Tools and Cyber Attacks Certification, expanding my knowledge in cybersecurity."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "11/15/2022",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Won **Certificate of Merit**",
+                            "text": "Awarded Certificate of Merit in the District Level Elocution Competition for outstanding public speaking skills."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

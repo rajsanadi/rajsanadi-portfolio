@@ -1,0 +1,80 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/universal_school.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/15/2005",
+                        "end": "05/31/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Primary and Secondary Education",
+                            "info": "**Universal School & Junior College**, Pune, Maharashtra",
+                            "text": "Completed high school with **First Class** grade, focusing on foundational studies in science and mathematics.",
+                            "tags": ["First Class"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/msbte_logo.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2018",
+                        "end": "05/31/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Diploma in Computer Engineering",
+                            "info": "**MSBTE** (Maharashtra State Board of Technical Education)",
+                            "text": "Graduated with a **92.63%** score. Acquired foundational knowledge in computer engineering and practical skills in programming and software development.",
+                            "tags": ["C", "C++", "Java", "Computer Networks"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/pune_university_logo.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2021",
+                        "end": "05/31/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Bachelor in Computer Engineering",
+                            "info": "**Pune University**",
+                            "text": "Pursuing Bachelor's degree with a **CGPA of 8.58/10**. Relevant coursework includes Web Development, Data Structures, and Operating Systems.",
+                            "tags": ["ASP.NET Core", "ReactJS", "Data Structures", "Algorithms"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

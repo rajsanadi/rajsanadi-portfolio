@@ -1,0 +1,546 @@
+{
+    "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore",
+            "title_long": "My **Skill Set**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "capabilities",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": "#4CAF50", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Full Stack & .NET Development**",
+                            "text": "Proficient in both front-end and back-end development, specializing in .NET technologies."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#9C27B0", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Database Management**",
+                            "text": "Experienced with MSSQL and MySQL databases."
+                        }
+                    }
+                },
+                
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-shield-alt",
+                        "faColors": {"bg": "#FF9800", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Auth & Security**",
+                            "text": "Expertise in JWT, Microsoft Identity, and Role-Based Authorization."
+                        }
+                    }
+                },
+                
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-users",
+                        "faColors": {"bg": "#03A9F4", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Team Collaboration**",
+                            "text": "Strong communication and leadership skills in team environments."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Front-End Development"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-html5",
+                        "faColors": {"bg": "#E34F26", "fill": "#FFFFFF"}
+                    },
+                    "value": 90,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "HTML5",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-css3-alt",
+                        "faColors": {"bg": "#1572B6", "fill": "#FFFFFF"}
+                    },
+                    "value": 80,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "CSS3",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js-square",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#000000"}
+                    },
+                    "value": 60,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {"bg": "#61DAFB", "fill": "#000000"}
+                    },
+                    "value": 65,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code-branch",
+                        "faColors": {"bg": "#764ABC", "fill": "#FFFFFF"}
+                    },
+                    "value": 70,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Redux & Redux Toolkit",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-bootstrap",
+                        "faColors": {"bg": "#7952B3", "fill": "#FFFFFF"}
+                    },
+                    "value": 85,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap & React-Bootstrap",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": "#0081CB", "fill": "#FFFFFF"}
+                    },
+                    "value": 75,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Material-UI",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "back_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Back-End Development"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-cuttlefish",
+                        "faColors": {"bg": "#00599C", "fill": "#FFFFFF"}
+                    },
+                    "value": 85,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "C# & .NET Core",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": "#A8B9CC", "fill": "#000000"}
+                    },
+                    "value": 60,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "C & C++",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-java",
+                        "faColors": {"bg": "#007396", "fill": "#FFFFFF"}
+                    },
+                    "value": 60,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#CC2927", "fill": "#FFFFFF"}
+                    },
+                    "value": 85,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "ASP.NET MVC & Web API",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-table",
+                        "faColors": {"bg": "#5C2D91", "fill": "#FFFFFF"}
+                    },
+                    "value": 55,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Entity Framework Core",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "tools",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Tools & Technologies"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": "#007ACC", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Visual Studio Code",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": "#181717", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Git & GitHub",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-compass-drafting",
+                        "faColors": {"bg": "#FF6C37", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Swagger",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-paper-plane",
+                        "faColors": {"bg": "#EF5B25", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Postman",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-robot",
+                        "faColors": {"bg": "#FF7E00", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "UiPath",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "databases",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Databases"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#003B57", "fill": "#FFFFFF"}
+                    },
+                    "value": 85,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Microsoft SQL Server",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#4479A1", "fill": "#FFFFFF"}
+                    },
+                    "value": 80,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "soft_skills",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": {"title": "Soft Skills"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-comments",
+                        "faColors": {"bg": "#FF5722", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Communication**",
+                            "text": "Excellent verbal and written communication skills."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-lightbulb",
+                        "faColors": {"bg": "#FFC107", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Problem Solving**",
+                            "text": "Adept at analyzing and resolving complex issues."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-users",
+                        "faColors": {"bg": "#8BC34A", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Teamwork**",
+                            "text": "Experienced in working collaboratively in team environments."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-chalkboard-teacher",
+                        "faColors": {"bg": "#03A9F4", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Leadership**",
+                            "text": "Ability to lead projects and guide team members."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-rocket",
+                        "faColors": {"bg": "#9C27B0", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Quick Learner**",
+                            "text": "Adaptable and always eager to learn new technologies."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Languages"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/flags/en.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "value": null,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "info": "Fluent",
+                            "tags": ["Fluent"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/hi.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "value": null,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Hindi",
+                            "info": "Fluent",
+                            "tags": ["Fluent"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/mr.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "value": null,
+                    "dates": {},
+                    "locales": {
+                        "en": {
+                            "title": "Marathi",
+                            "info": "Native",
+                            "tags": ["Native"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

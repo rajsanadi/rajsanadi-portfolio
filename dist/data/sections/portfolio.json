@@ -1,0 +1,348 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        }
+    },
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {
+                "layout": "grid",
+                "showCategories": true,
+                "cardStyle": "elevated"
+            },
+            "locales": {},
+            "categories": [
+                {
+                    "id": "web_applications",
+                    "locales": {
+                        "en": {
+                            "singular": "Web Application",
+                            "plural": "Web Applications"
+                        }
+                    }
+                },
+                {
+                    "id": "automation_projects",
+                    "locales": {
+                        "en": {
+                            "singular": "Automation Project",
+                            "plural": "Automation Projects"
+                        }
+                    }
+                },
+                {
+                    "id": "desktop_applications",
+                    "locales": {
+                        "en": {
+                            "singular": "Desktop Application",
+                            "plural": "Desktop Applications"
+                        }
+                    }
+                }
+            ],
+            "items": [
+                {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/workflow360logo.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/rajsanadi/WorkFlow360"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=workflow360_demo",
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/SalaryList.png",
+                                "images/pictures/DepartmentMonthlySalaryreport.png",
+                                "images/pictures/DepartmentAnnualSalaryReport.png",
+                                "images/pictures/AddSalary.png"
+
+                               
+                                
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "WorkFlow360",
+                            "text": "<p>A comprehensive employee management system.</p><ul><li>Developed RESTful APIs using <strong>ASP.NET Core Web API</strong> and <strong>SQL Server</strong>.</li><li>Implemented authentication with <strong>Microsoft Identity</strong> and <strong>JWT-based authentication</strong>.</li><li>Created advanced search functionalities and dynamic reporting features.</li><li>Built a responsive frontend with <strong>ReactJS</strong> and <strong>Redux Toolkit</strong>.</li><li>Adopted <strong>Onion Architecture</strong> for scalability.</li></ul>",
+                            "tags": [
+                                "ASP.NET Core",
+                                "ReactJS",
+                                "Redux Toolkit",
+                                "SQL Server",
+                                "Onion Architecture",
+                                "JWT"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/cartifylogo.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/rajsanadi/Cartify"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=cartify_demo",
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                               
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cartify",
+                            "text": "<p>An e-commerce platform for seamless shopping experience.</p><ul><li>Designed RESTful APIs with <strong>ASP.NET Core Web API</strong>.</li><li>Implemented custom middleware and logging mechanisms.</li><li>Secured API access using <strong>JWT-based authentication</strong>.</li><li>Built a responsive frontend with <strong>ReactJS</strong> and <strong>Redux</strong>.</li><li>Enhanced user experience with advanced search and filtering.</li></ul>",
+                            "tags": [
+                                "ASP.NET Core",
+                                "ReactJS",
+                                "Redux",
+                                "JWT",
+                                "Middleware",
+                                "E-commerce"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/libraryapi_logo.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/rajsanadi/Library-API"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=libraryapi_demo",
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "LibraryAPI",
+                            "text": "<p>A system to manage library operations efficiently.</p><ul><li>Developed RESTful APIs using <strong>ASP.NET Core</strong>.</li><li>Implemented complex search and user history features.</li><li>Used <strong>Entity Framework</strong> and <strong>LINQ</strong> for data access.</li><li>Applied <strong>Onion Architecture</strong> for modularity.</li></ul>",
+                            "tags": [
+                                "ASP.NET Core",
+                                "Entity Framework",
+                                "LINQ",
+                                "Onion Architecture",
+                                "Library Management"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "desktop_applications",
+                    "icon": {
+                        "img": "images/pictures/Dashboard.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/rajsanadi/Intelligent-Video-Survelliance-System"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=video_surveillance_demo",
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/Suspicious Activity (Fighting).png",
+                                "images/pictures/Suspicious Activity (Knife).png",
+                                "images/pictures/Suspicious Activity (Video).png"
+                                
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Intelligent Video Surveillance System",
+                            "text": "<p>Final Year Project: An ML-based system for real-time anomaly detection.</p><ul><li>Implemented using <strong>Python</strong> and <strong>OpenCV</strong>.</li><li>Enabled immediate alerts for detected anomalies.</li><li>Enhanced security monitoring efficiency.</li></ul>",
+                            "tags": [
+                                "Machine Learning",
+                                "Computer Vision",
+                                "Anomaly Detection",
+                                "Python",
+                                "OpenCV"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/weatherlogo.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://github.com/rajsanadi"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=weatherapp_demo",
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Weather App",
+                            "text": "<p>A real-time weather application.</p><ul><li>Built using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>RESTful APIs</strong>.</li><li>Displays live weather data with interactive UI.</li><li>Implemented responsive design for various devices.</li></ul>",
+                            "tags": [
+                                "JavaScript",
+                                "RESTful APIs",
+                                "Responsive Design",
+                                "Weather Data"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "automation_projects",
+                    "icon": {
+                        "img": "images/pictures/excel_automation_logo.png",
+                        "fa": "fa-solid fa-file-excel",
+                        "faColors": { "bg": "#217346", "fill": "#FFFFFF" }
+                    },
+                    "links": [],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=excel_automation_demo",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": [
+                                "images/projects/excel_automation_screenshot1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Excel Automation",
+                            "text": "<p>Automated data entry and report generation.</p><ul><li>Used <strong>UiPath</strong> for automation workflows.</li><li>Streamlined data extraction processes.</li><li>Generated Excel reports efficiently.</li></ul>",
+                            "tags": [
+                                "UiPath",
+                                "Automation",
+                                "Excel",
+                                "Data Entry"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "automation_projects",
+                    "icon": {
+                        "img": "images/pictures/webautomation.png",
+                        "fa": "fa-solid fa-globe",
+                        "faColors": { "bg": "#FFFFF", "fill": "#FFFFFF" }
+                    },
+                    "links": [],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=web_automation_demo",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": [
+                                "images/projects/web_automation_screenshot1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web Automation",
+                            "text": "<p>Automated repetitive web-based tasks.</p><ul><li>Developed workflows using <strong>UiPath</strong>.</li><li>Reduced manual effort and error rates significantly.</li><li>Improved efficiency in web interactions.</li></ul>",
+                            "tags": [
+                                "UiPath",
+                                "Automation",
+                                "Web Tasks",
+                                "Efficiency"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/portfolio.png",
+                        "fa": "fa-solid fa-folder",
+                        "faColors": { "bg": "#61DAFB", "fill": "#FFFFFF" }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/rajsanadi/Portfolio"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://portfolio.rajsanadi.com" 
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=portfolio_demo",
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                               
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Portfolio",
+                            "text": "<p>A personal portfolio website showcasing my projects and skills.</p><ul><li>Built using <strong>React</strong> and <strong>Vite</strong> for a fast and optimized development experience.</li><li>Implemented responsive design using <strong>Smooth Scroller</strong>, <strong>Swipper</strong> to ensure seamless interactive viewing across devices.</li><li>Integrated animations and interactive elements.</li><li>Optimized performance with code-splitting and lazy loading.</li><li>Deployed on <strong>Netlifly</strong> for continuous deployment and easy scalability.</li></ul><p><strong>Key Features:</strong></p><ul><li>Lightweight and fully responsive.</li><li>Adapts perfectly to mobile screens.</li><li>Comes with both dark and light theme options.</li><li>Uses Vite for packaging.</li></ul>",
+                            "tags": [
+                                "React",
+                                "Vite",
+                                "JavaScript",
+                                
+                                "React Router",
+                                "Responsive Design",
+                                
+                                "Performance Optimization",
+                                
+                                "Dark/Light Themes",
+                                "No Backend"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
