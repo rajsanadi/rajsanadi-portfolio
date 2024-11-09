@@ -1,0 +1,271 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Ashambhraj Sanadi!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {}
+            },
+
+            "items": [
+                {
+                    "value": "Pune – MH",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": "#6C757D", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {"title": "Location"}
+                    }
+                },
+                {
+                    "value": "ashambhrajsanadi9333@gmail.com",
+                    "links": [
+                        {"href": "mailto:ashambhrajsanadi9333@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": "#DC3545", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"}
+                    }
+                },
+                {
+                    "value": "@rajsanadi",
+                    "links": [
+                        {"href": "https://github.com/rajsanadi"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": "#333333", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {"title": "GitHub"}
+                    }
+                },
+                {
+                    "value": "Resume",
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1ZBWkOYt5K8DtZAjU3I32J_keBuN5OMg3/view?usp=drive_link", "download": true}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-file-alt",
+                        "faColors": {"bg": "#6C757D", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {"title": "Resume"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>I am a highly enthusiastic Computer Engineering graduate with a solid foundation in **Full Stack** and **.NET development**. Skilled at turning ideas into strong, scalable solutions, I keep a sharp focus on user-centric design—because, naturally, users are always right. Known for my dedication to collaborative environments, I handle each project from planning to execution, ready to contribute both independently and as part of a team.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b></p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "core_competencies",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Core **Competencies**"},
+                "es": {"title": "Competencias **Núcleo**"},
+                "fr": {"title": "Compétences **Clés**"},
+                "ko": {"title": "핵심 **역량**"}
+            },
+            "items": [
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": "#007BFF", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Full Stack Development",
+                            "info": "Skilled in front-end and back-end development, with React and .NET."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#28A745", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Database Management",
+                            "info": "Experienced with MSSQL and MySQL, ensuring efficient data handling."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-shield-alt",
+                        "faColors": {"bg": "#17A2B8", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Security Practices",
+                            "info": "Implemented JWT and role-based access control for secure applications."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-project-diagram",
+                        "faColors": {"bg": "#FFC107", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Project Architecture",
+                            "info": "Utilized Onion Architecture for scalable and maintainable solutions."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-users-cog",
+                        "faColors": {"bg": "#6F42C1", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Collaborative Work",
+                            "info": "Thrives in team environments, contributing ideas and technical skills."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **Interests**"},
+                "es": {"title": "Intereses **Personales**"},
+                "fr": {"title": "Intérêts **Personnels**"},
+                "ko": {"title": "개인 **관심사**"}
+            },
+            "items": [
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": "#6C757D", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Software Development",
+                            "info": "Building innovative applications and improving existing systems."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-robot",
+                        "faColors": {"bg": "#28A745", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Machine Learning and AI",
+                            "info": "Exploring AI models and developing intelligent solutions."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-globe",
+                        "faColors": {"bg": "#17A2B8", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web3",
+                            "info": "Delving into decentralized technologies and blockchain applications."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-book-reader",
+                        "faColors": {"bg": "#FFC107", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Reading & Watching",
+                            "info": "Consuming technical blogs and documentaries to stay updated."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-lightbulb",
+                        "faColors": {"bg": "#6F42C1", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tech Enthusiast",
+                            "info": "Passionate about the latest technological advancements and innovations."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-shield-alt",
+                        "faColors": { "bg": "#FFC107", "fill": "#FFFFFF" }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cyber Security",
+                            "info": "Enhancing system security and safeguarding data integrity."
+                        }
+                    }
+                }        
+            ]
+        }
+    ]
+}

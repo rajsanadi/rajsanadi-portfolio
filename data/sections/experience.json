@@ -1,0 +1,76 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/triveni_logo.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                        "start": "06/22/2024",
+                        "end": "10/31/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Full-Stack Developer Intern**",
+                            "info": "Triveni Global Software Services LLP, Surat-GJ (On-Site)",
+                            "text": "<ul><li>Designed and developed multiple full-stack web applications using **ASP.NET Core** WebAPI, <strong>MVC</strong>, <strong>React</strong> with <strong>Redux</strong> and **Redux Toolkit**, and <strong>SQL</strong>.</li><li>Integrated **RESTful APIs** with front-end interfaces through **Axios** and <strong>Fetch API</strong> for secure and efficient data exchange.</li><li>Utilized company-specific custom **Onion Architecture** to enhance maintainability and scalability across various web applications.</li><li>Built project components with <strong>React</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Bootstrap</strong>, <strong>**MUI**</strong>, <strong>ASP.NET MVC</strong>, and <strong>ASP.NET Web API</strong>.</li><li>Collaborated on daily development tasks, meeting project milestones and optimizing development workflows in an <strong>**Agile**</strong> environment.</li></ul>",
+                            "tags": [
+                                "ASP.NET Core",
+                                "React",
+                                "Redux",
+                                "MVC",
+                                "SQL",
+                                "Onion Architecture",
+                                "Axios",
+                                "Fetch API",
+                                "Bootstrap",
+                                "MUI",
+                                "Agile"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/proazure_logo.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                        "start": "01/01/2023",
+                        "end": "03/31/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**RPA and Web Developer Intern**",
+                            "info": "ProAzure Software Solutions, Pune-MH (Hybrid)",
+                            "text": "<ul><li>Developed automation workflows using **UiPath**, improving process efficiency by <strong>30%</strong>.</li><li>Created web applications with standard HTML, CSS and JavaScript, enhancing user experience.</li><li>Worked closely with mentors to understand project requirements and deliver solutions.</li></ul>",
+                            "tags": [
+                                "UiPath",
+                                "AWS",
+                                "JavaScript",
+                                "Automation"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

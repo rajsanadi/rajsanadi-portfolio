@@ -1,0 +1,90 @@
+{
+    "locales": {
+        "en": {
+            "title": "Achievements",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-java",
+                        "faColors": {"bg": "#007396", "fill": "#FFFFFF"}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "View Certificate", "href": "https://coursera.org/verify/your-certificate-id" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Coursera",
+                            "text": "Certificate in Advanced Java Programming"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-shield-alt",
+                        "faColors": {"bg": "#052FAD", "fill": "#FFFFFF"}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "View Certificate", "href": "https://www.credly.com/badges/your-badge-id" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "IBM",
+                            "text": "Cyber Security Tools and Cyber Attacks Certification"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Awards & Honors" }
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": null,
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Certificate of Merit",
+                            "info": "District Level Elocution Competition",
+                            "text": "Awarded for outstanding performance in public speaking at the district level competition."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
