@@ -10,4 +10,8 @@ Key Features:
 Lightweight and fully responsive.
 Adapts perfectly to mobile screens.
 Comes with both dark and light theme options.
+<<<<<<< HEAD
 Uses Vite for packaging.
+=======
+Uses Vite for packaging.
+>>>>>>> 8bd690571569fbd63ad5b04273089cd1633d042a
