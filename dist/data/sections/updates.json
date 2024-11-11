@@ -91,6 +91,22 @@
             "items": [
                 {
                     "dates": {
+                        "start": "11/15/2024",
+                        "end": null
+                    },
+                    "links": [
+                       
+                        { "string": "Live Demo", "href": "https://rajsanadi-ecommerce.netlify.app/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Launched **Shopify E-Commerce**",
+                            "text": "Successfully deployed **Shopify E-Commerce**, a responsive and feature-rich platform developed using **React**. The website offers real-time search, category filters, wishlist and cart management, interactive product modals, smooth animations with **Framer Motion**, and instant feedback via **React Toastify**. Deployed on **Netlify** for optimized performance and continuous deployment."
+                        }
+                    }
+                },
+                {
+                    "dates": {
                         "start": "08/15/2023",
                         "end": null
                     },
@@ -100,7 +116,7 @@
                     "locales": {
                         "en": {
                             "title": "Launched **WorkFlow360**",
-                            "text": "Successfully launched WorkFlow360, a comprehensive employee management system developed using ASP.NET Core and ReactJS. It features advanced reporting and authentication mechanisms."
+                            "text": "Successfully launched **WorkFlow360**, a comprehensive employee management system developed using **ASP.NET Core** and **ReactJS**. It features advanced reporting and authentication mechanisms."
                         }
                     }
                 },
@@ -113,7 +129,7 @@
                     "locales": {
                         "en": {
                             "title": "Completed Internship at **Triveni Global Software Services LLP**",
-                            "text": "Contributed as a Full-Stack Developer Intern, designing and developing full-stack web applications using ASP.NET Core and React."
+                            "text": "Contributed as a Full-Stack Developer Intern, designing and developing full-stack web applications using **ASP.NET Core** and **React**."
                         }
                     }
                 },
@@ -126,7 +142,7 @@
                     "locales": {
                         "en": {
                             "title": "Completed Internship at **ProAzure Software Solutions**",
-                            "text": "Worked as an RPA and Web Developer Intern, developing automation workflows using UiPath, which improved process efficiency by 30%."
+                            "text": "Worked as an RPA and Web Developer Intern, developing automation workflows using **UiPath**, which improved process efficiency by 30%."
                         }
                     }
                 },

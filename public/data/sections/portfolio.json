@@ -193,6 +193,96 @@
                         }
                     }
                 },
+
+                {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/LOGO.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/rajsanadi/react-e-commerce"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://rajsanadi-ecommerce.netlify.app/"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=ecommerce_demo",
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/Interface.png",
+                                "images/pictures/Modalpopup.png",
+                                "images/pictures/CartandPaymentInterface.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Shopify",
+                            "text": "<p>Developed a responsive E-Commerce platform using React.js.</p><ul><li>Implemented real-time search, category filters, wishlist and cart management.</li><li>Integrated interactive product modals, smooth animations with Framer Motion, and toast notifications via React Toastify.</li><li>Optimized performance with code-splitting and lazy loading.</li><li>Deployed on Netlify for continuous deployment and easy scalability.</li><li>Used fake API for fetching products and integrated Payment Interface for seamless payments.</li></ul>",
+                            "tags": [
+                                "React",
+                                
+                                "JavaScript",
+                                "Framer Motion",
+                                "React Toastify",
+                                "Responsive Design",
+                                "Performance Optimization",
+                                
+                                "Netlify"
+                            ]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/portfolio.png",
+                        "fa": "fa-solid fa-folder",
+                        "faColors": { "bg": "#61DAFB", "fill": "#FFFFFF" }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/rajsanadi/Portfolio"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://portfolio.rajsanadi.com" 
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=portfolio_demo",
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Portfolio",
+                            "text": "<p>A personal portfolio website showcasing my projects and skills.</p><ul><li>Built using <strong>React</strong> and <strong>Vite</strong> for a fast and optimized development experience.</li><li>Implemented responsive design using <strong>Smooth Scroller</strong>, <strong>Swipper</strong> to ensure seamless interactive viewing across devices.</li><li>Integrated animations and interactive elements.</li><li>Optimized performance with code-splitting and lazy loading.</li><li>Deployed on <strong>Netlifly</strong> for continuous deployment and easy scalability.</li></ul><p><strong>Key Features:</strong></p><ul><li>Lightweight and fully responsive.</li><li>Adapts perfectly to mobile screens.</li><li>Comes with both dark and light theme options.</li><li>Uses Vite for packaging.</li></ul>",
+                            "tags": [
+                                "React",
+                                "Vite",
+                                "JavaScript",
+                                "React Router",
+                                "Responsive Design",
+                                "Performance Optimization",
+                                "Dark/Light Themes",
+                                "No Backend"
+                            ]
+                        }
+                    }
+                },
+
                 {
                     "categoryId": "web_applications",
                     "icon": {
@@ -213,6 +303,8 @@
                             "images": []
                         }
                     },
+
+                    
                     "locales": {
                         "en": {
                             "title": "Weather App",
@@ -285,94 +377,9 @@
                             ]
                         }
                     }
-                },
-                {
-                    "categoryId": "web_applications",
-                    "icon": {
-                        "img": "images/pictures/portfolio.png",
-                        "fa": "fa-solid fa-folder",
-                        "faColors": { "bg": "#61DAFB", "fill": "#FFFFFF" }
-                    },
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-github",
-                            "href": "https://github.com/rajsanadi/Portfolio"
-                        },
-                        {
-                            "faIcon": "fa-solid fa-link",
-                            "href": "https://portfolio.rajsanadi.com" 
-                        }
-                    ],
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=portfolio_demo",
-                        "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Portfolio",
-                            "text": "<p>A personal portfolio website showcasing my projects and skills.</p><ul><li>Built using <strong>React</strong> and <strong>Vite</strong> for a fast and optimized development experience.</li><li>Implemented responsive design using <strong>Smooth Scroller</strong>, <strong>Swipper</strong> to ensure seamless interactive viewing across devices.</li><li>Integrated animations and interactive elements.</li><li>Optimized performance with code-splitting and lazy loading.</li><li>Deployed on <strong>Netlifly</strong> for continuous deployment and easy scalability.</li></ul><p><strong>Key Features:</strong></p><ul><li>Lightweight and fully responsive.</li><li>Adapts perfectly to mobile screens.</li><li>Comes with both dark and light theme options.</li><li>Uses Vite for packaging.</li></ul>",
-                            "tags": [
-                                "React",
-                                "Vite",
-                                "JavaScript",
-                                "React Router",
-                                "Responsive Design",
-                                "Performance Optimization",
-                                "Dark/Light Themes",
-                                "No Backend"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "categoryId": "web_applications",
-                    "icon": {
-                        "img": "images/pictures/LOGO.png",
-                        "fa": null,
-                        "faColors": {}
-                    },
-                    "links": [
-                        {
-                            "faIcon": "fa-brands fa-github",
-                            "href": "https://github.com/rajsanadi/react-e-commerce"
-                        },
-                        {
-                            "faIcon": "fa-solid fa-link",
-                            "href": "https://rajsanadi-ecommerce.netlify.app/"
-                        }
-                    ],
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=ecommerce_demo",
-                        "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": [
-                                "images/pictures/Interface.png",
-                                "images/pictures/Modalpopup.png",
-                                "images/pictures/Cart and Payment Interface.png"
-                            ]
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Shopify",
-                            "text": "<p>Developed a responsive E-Commerce platform using React.js.</p><ul><li>Implemented real-time search, category filters, wishlist and cart management.</li><li>Integrated interactive product modals, smooth animations with Framer Motion, and toast notifications via React Toastify.</li><li>Optimized performance with code-splitting and lazy loading.</li><li>Deployed on Netlify for continuous deployment and easy scalability.</li><li>Used fake API for fetching products and integrated Payment Interface for seamless payments.</li></ul>",
-                            "tags": [
-                                "React",
-                                
-                                "JavaScript",
-                                "Framer Motion",
-                                "React Toastify",
-                                "Responsive Design",
-                                "Performance Optimization",
-                                
-                                "Netlify"
-                            ]
-                        }
-                    }
                 }
+                
+                
             ]
         }
     ]
